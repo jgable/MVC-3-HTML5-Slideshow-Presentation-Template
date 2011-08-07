@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@(Page.Title ?? "Slideshow")</title>
+    <link href="@Url.Content("~/css/slideshow.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/site.css")" rel="stylesheet" type="text/css" />
+    
+    <script src="@Url.Content("~/js/lib/modernizr-2.0.min.js")"></script>
+    <script src="@Url.Content("~/js/lib/respond.min.js")"></script>
+</head>
+
+<body>
+    <!-- Begin header -->
+    <header> 
+        <h1>@(Page.Title ?? "Slideshow")</h1> 
+        <nav> 
+          <ul> 
+            <li><button id="prev-btn" title="Previous slide">Previous Slide</button></li> 
+            <li><span id="slide-number"></span>/<span id="slide-total"></span></li> 
+            <li><button id="next-btn" title="Next Slide">Next Slide</button></li> 
+          </ul> 
+        </nav> 
+    </header> 
+    <!-- End header -->
+
+    
+    <div id="deck">
+    <!-- Begin slides --> 
+    @RenderBody()
+    <!-- End slides -->
+    </div>
+    
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>        window.jQuery || document.write('<script src="@Url.Content("~/js/lib/jquery-1.6.2.min.js")"><\/script>')</script>
+
+    <script src="@Url.Content("~/js/slideshow.js")"></script>
+    <script src="@Url.Content("~/js/site.js")"></script>
+</body>
+</html>

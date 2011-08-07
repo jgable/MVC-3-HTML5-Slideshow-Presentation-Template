@@ -1,0 +1,15 @@
+HTML5 Slideshow Presentation
+
+Getting Started
+
+1. Put your awesome slides in the /Views/Index.cshtml body content.
+2. Put some sexy styles in the /css/site.css file.
+3. Add some snazzy javascript in the /js/site.js file.
+4. Give a great presentation.
+
+Site template packaged up by Jacob Gable - http://jacob4u2.posterous.com, jacob.gable[_at_]gmail.com
+
+This project uses the html5-slideshow javascript library and styles from https://github.com/robflaherty/html-slideshow by @robflaherty.
+
+The html5-slideshow library is licensed under the MIT License.
+My site template is licensed under the Microsoft Public License or the MIT License in case the MS-PL conflicts in any way with the MIT License.

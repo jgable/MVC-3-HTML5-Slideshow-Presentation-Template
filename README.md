@@ -6,6 +6,6 @@ This **Visual Studio Extension** helps developers create HTML5 Slideshow Present
 
 Available through the [Visual Studio Extension Gallery](http://visualstudiogallery.msdn.microsoft.com/93ad842b-a7f8-4a78-946c-a2fbf94fa280).
 
-Created by [Jacob Gable](http://jacob4u2.posterous.com).
+Packaged up by [Jacob Gable](http://jacob4u2.posterous.com), but the original [html-slideshow library](https://github.com/robflaherty/html-slideshow) was created by [Rob Flaherty](http://www.ravelrumba.com/)
 
 This project is licensed under the Microsoft Public License (Ms-PL) and MIT License.
